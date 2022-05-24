@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.06f3aa95.css","mappings":"AAAA,KACI,YACJ,CACA,mBACI,oBACJ,CAEA,OACI,iBACJ,CACA,IACI,iBACJ","sources":["index.css"],"sourcesContent":["body{\r\n    padding: 1rem;\r\n}\r\ninput[type=\"text\" i]{\r\n    margin: 0 1rem 1rem 0;\r\n}\r\n\r\nbutton{\r\n    margin-right: 1rem;\r\n}\r\ndiv{\r\n    margin-bottom: 5px;\r\n}"],"names":[],"sourceRoot":""}

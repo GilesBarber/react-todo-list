@@ -8,6 +8,8 @@ const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
 let todoID = 0;
 
+// const todoObjects = 
+
 function App() {
   const [todos, setTodos] = useState([])
   const todoNameRef = useRef()
@@ -32,10 +34,12 @@ function App() {
     const name = todoNameRef.current.value
     todoID += 1;
     console.log(todoID);
+    // dont run if input is empty
     if(name === '') return
     setTodos(prevTodos =>{
-      return [...prevTodos, {id: todoID, name: name, complate: false}]
+      return [...prevTodos, {id: todoID, name: name, complete: false}]
     })
+    // clear out input after setting todo
     todoNameRef.current.value = null
   }
 
